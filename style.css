@@ -1,0 +1,111 @@
+.navbar-nav{
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+
+.navbar-brand > img{
+    width: 170px;
+}
+
+
+.navbar-nav > .quote-btn{
+    margin-right: 100px;
+}
+
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(105, 113, 76, 0.7)), url('home-sec.jpeg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-attachment: fixed;
+    height: 850px;
+    margin-top: -120px;
+    
+}
+
+.home .h1{
+    font-size: 90px;
+    padding-left: 30px;
+    padding-top: 360px;
+    color: rgb(255, 255, 255);
+    width: 1000px;
+}
+
+.home .p{
+    font-size: 25px;
+    width: 530px;
+    text-align: justify;
+    margin-left: 700px;
+}
+
+.cards{
+    background-color: rgb(229, 224, 224);
+}
+.cards h1{
+    padding-top: 90px;
+}
+
+.cards-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards-row .card{
+    background-color: rgb(229, 224, 224);;
+    border: none;
+    text-align: justify;
+    letter-spacing: normal;
+}
+
+.cards-row .card a{
+    color: black;
+}
+
+.about-row{
+    display: flex;
+}
+
+.about-row .card{
+    border: none;
+    width: 40rem;
+}
+
+.about-row .card .card-body{
+    width: 25rem;
+    height: 220px;
+    padding: 50px;
+}
+
+
+.about-row .card .card-body img{
+    width: 600px;
+    margin-left: -70px;
+    padding-top: 500px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .home .h1 {
+        font-size: 25px;
+        padding-left: 20px;
+        padding-top: 200px;
+        width: 300px;
+    }
+    .home .p{
+        font-size: 18px;
+        text-align: justify;
+        margin-left: 90px;
+        width: 230px;
+        margin-top: 50px;
+        padding-top: 10px;
+    }
+    .cards-row{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
