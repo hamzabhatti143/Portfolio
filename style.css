@@ -1,3 +1,4 @@
+
 .navbar-nav{
     margin-left: 150px;
     text-transform: uppercase;
@@ -60,34 +61,92 @@
     color: black;
 }
 
+
+.about .card{
+    padding: 50px;
+    background-color: #ffe1a1;
+}
+
+.about .card h4{
+    font-size: 50px;
+}
+.about .card p{
+    font-size: 18px;
+}
+
+.about-row .card h5{
+    font-size: 25px;
+}
+.about-row .card p{
+    font-size: 18px;
+}
 .about-row{
     display: flex;
+    margin-bottom: 400px;
 }
 
 .about-row .card{
     border: none;
     width: 40rem;
+    margin-top: -40px;
 }
 
 .about-row .card .card-body{
     width: 25rem;
     height: 220px;
-    padding: 50px;
 }
 
 
 .about-row .card .card-body img{
     width: 600px;
+    height: 700px;
     margin-left: -70px;
-    padding-top: 500px;
+    margin-top: -30px;
 }
 
+.trusted-row{
+    display: flex;
+}
 
+.trusted-row .card{
+    padding: 20px;
+    background: transparent;
+    border: none;
+}
 
+.trusted-row h2{
+    font-size: 50px;
+}
+.trusted-row .card p{
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 40px;
+}
 
+.trusted-cards .card img{
+    width: 400px;
+    padding: 20px;
+}
 
+.subs-form{
+    padding: 60px;
+    background-color: rgb(237, 177, 124);
+    display: flex;
+}
 
+.subs-form h3{
+    font-size: 50px;
+}
 
+.subs-form input{
+    height: 60px;
+    border-radius: 0%;
+}
+
+.subs-btn{
+    margin-left: 40px;
+    padding: 10px;
+}
 @media screen and (max-width: 400px) {
     .home .h1 {
         font-size: 25px;
